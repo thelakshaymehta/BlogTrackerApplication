@@ -21,6 +21,7 @@ namespace DataAccessLayer
         {
             return _Db.BlogInfo.ToList();
         }
+        
         public void Save()
         {
             _Db.SaveChanges();
